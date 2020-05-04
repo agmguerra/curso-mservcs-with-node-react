@@ -67,4 +67,6 @@ Por exemplo:
 Instalar o que for necessário após isso em uma outra janela shell executar:
 > docker commit -c 'CMD ["redis-server"]' <id do container>
 
+Docker run com mapeamento de portas
+>docker run -p <porta do request>:<porta dentro do container> <image name ou id>
 
